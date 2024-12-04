@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h2>Blog</h2>
+        </div>
+        <h1>Amigo 4 patas</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Sobre Nós</a></li>
+                <li><a href="#">Cuidados</a></li>
+                <li><a href="#">Categorias</a></li>
+                <li><a href="#">Adote um Amigo</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="banner">
+            <img src="pets_brincando.jpg" alt="Pets brincando" />
+        </section>
+        <section class="posts">
+            <article>
+                <h2>Como cuidar do seu cão no inverno</h2>
+                <img src="cuidado_cao.jpg" alt="Cão no inverno" />
+                <p>Os meses frios podem ser desafiadores para nossos amigos peludos. Aqui estão algumas dicas para manter seu cão confortável:</p>
+                <ul>
+                    <li><strong>Aqueça o ambiente:</strong> Garanta que seu cão tenha um lugar quentinho para descansar, longe de correntes de ar.</li>
+                    <li><strong>Roupas para cães:</strong> Considere usar um casaco para cães de pelo curto ou sensíveis ao frio.</li>
+                    <li><strong>Cuidado com o gelo:</strong> Evite que seu cão ande em áreas com gelo, que podem causar lesões.</li>
+                </ul>
+                <p>Lembre-se de que, mesmo no inverno, os passeios são importantes! Mantenha os passeios curtos, mas frequentes.</p>
+            </article>
+            <article>
+                <h2>5 Brinquedos DIY para Gatos</h2>
+                <img src="gato_brinquedo.jpg" alt="Brinquedos para gatos" />
+                <p>Brincar é essencial para o bem-estar dos gatos. Aqui estão cinco ideias fáceis de brinquedos que você pode fazer em casa:</p>
+                <ol>
+                    <li><strong>Bolinha de papel:</strong> Faça uma bolinha com papel amassado e observe seu gato se divertir!</li>
+                    <li><strong>Varinha com penas:</strong> Amarre penas em uma corda presa a uma vara para criar um brinquedo interativo.</li>
+                    <li><strong>Caixa de papelão:</strong> Gatos adoram explorar. Uma caixa pode se transformar em um esconderijo divertido.</li>
+                    <li><strong>Brinquedo com garrafa PET:</strong> Coloque ração dentro de uma garrafa PET para que o gato descubra como pegá-la.</li>
+                    <li><strong>Fita adesiva:</strong> Grude pedaços de fita adesiva em uma superfície e deixe seu gato brincar tentando pegar.</li>
+                </ol>
+                <p>Esses brinquedos são simples de fazer e garantem horas de diversão para o seu felino!</p>
+            </article>
+            <article>
+                <h2>Histórias de adoção: O Max e sua nova família</h2>
+                <img src="adocao.jpg" alt="Max adotado" />
+                <p>Max era um cão abandonado que encontrou abrigo em um canil. Após meses de espera, ele finalmente foi adotado por uma família amorosa.</p>
+                <p>Desde que chegou à sua nova casa, Max se adaptou rapidamente. Seus novos donos contam que ele é muito carinhoso e adora brincar no quintal. Veja como a adoção pode transformar a vida de um animal:</p>
+                <blockquote>"Adotar um animal é uma das melhores decisões que já tomei. Max trouxe alegria e amor para nossa casa!" - Família Silva</blockquote>
+                <p>A adoção é uma forma de dar uma segunda chance a um animal e, ao mesmo tempo, enriquecer a vida de uma família.</p>
+            </article>
+        </section>
+        <section class="categorias">
+            <h2>Categorias</h2>
+            <ul>
+                <li><a href="#">Cuidados com Pets</a></li>
+                <li><a href="#">Dicas de adoção</a></li>
+                <li><a href="#">Treinamento e Comportamento</a></li>
+                <li><a href="#">Brinquedos e Brincadeiras</a></li>
+                <li><a href="#">Histórias Inspiradoras</a></li>
+            </ul>
+        </section>
+        <section class="galeria">
+            <h2>Galeria de Pets dos leitores</h2>
+            <p>Confira algumas fotos enviadas pelos nossos leitores! Se você quiser compartilhar a foto do seu pet, envie-nos um e-mail.</p>
+            <div class="galeria-grid">
+                <img src="pet1.jpg" alt="Pet 1" />
+                <img src="pet2.jpeg" alt="Pet 2" />
+                <img src="pet3.jpg" alt="Pet 3" />
+            </div>
+        </section>
+        <section class="contato">
+            <h2>Entre em Contato Conosco</h2>
+            <form id="contactForm">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+            <div id="formMessage"></div>
+        </section>
+    </main>
+    <footer>
+    </footer>
+    <script src="java.js"></script>
+</body>
+</html>
